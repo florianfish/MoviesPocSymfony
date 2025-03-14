@@ -1,0 +1,31 @@
+{
+    "name": "Symfony Dev Container",
+    "dockerComposeFile": "compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig", /* EditorConfig for VS Code */
+                "DEVSENSE.phptools-vscode", /* AiO PHP */
+                "bmewburn.vscode-intelephense-client", /* PHP Intelephense */
+                "xdebug.php-debug", /* PHP Debug*/
+                "xdebug.php-pack", /* PHP Extension Pack */
+                "ms-azuretools.vscode-docker", /* Docker */
+                "mhutchie.git-graph", /* Git Graph*/
+                "formulahendry.docker-explorer", /* Docker Explorer */
+                "TheNouillet.symfony-vscode", /* Symfony for VSCode */
+                "whatwedo.twig", /* Twig */
+                "mblode.twig-language-2", /* Twig Language 2 */
+                "nadim-vscode.twig-code-snippets", /* Twig code snippets */
+                "ms-vscode.makefile-tools", /* Makefile Tools */
+                "TheNouillet.symfony-vscode" /* Symfony VSCode */
+            ]
+        }
+    },
+    "forwardPorts": [
+        "dev:8000",
+        "mailer:8025"
+    ]
+}
