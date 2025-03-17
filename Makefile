@@ -37,7 +37,7 @@ sf: ## List and Use All Symfony commands (make sf command="commande-name").
 .PHONY: sf
 
 sf-start: ## Start symfony server.
-	$(SYMFONY_SERVER_START)
+	$(SYMFONY_SERVER_START) --no-tls
 .PHONY: sf-start
 
 sf-stop: ## Stop symfony server.
