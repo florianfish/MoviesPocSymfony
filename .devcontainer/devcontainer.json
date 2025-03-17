@@ -20,7 +20,8 @@
                 "mblode.twig-language-2", /* Twig Language 2 */
                 "nadim-vscode.twig-code-snippets", /* Twig code snippets */
                 "ms-vscode.makefile-tools", /* Makefile Tools */
-                "TheNouillet.symfony-vscode" /* Symfony VSCode */
+                "TheNouillet.symfony-vscode", /* Symfony VSCode */
+                "Vue.volar" /* Vue Official*/
             ]
         }
     },

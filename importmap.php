@@ -35,4 +35,29 @@ return [
         'version' => '5.3.3',
         'type' => 'css',
     ],
+    'vue' => [
+        'version' => '3.5.13',
+        'package_specifier' => 'vue/dist/vue.esm-bundler.js',
+    ],
+    '@vue/runtime-dom' => [
+        'version' => '3.5.13',
+    ],
+    '@vue/compiler-dom' => [
+        'version' => '3.5.13',
+    ],
+    '@vue/shared' => [
+        'version' => '3.5.13',
+    ],
+    '@vue/runtime-core' => [
+        'version' => '3.5.13',
+    ],
+    '@vue/compiler-core' => [
+        'version' => '3.5.13',
+    ],
+    '@vue/reactivity' => [
+        'version' => '3.5.13',
+    ],
+    '@symfony/ux-vue' => [
+        'path' => './vendor/symfony/ux-vue/assets/dist/loader.js',
+    ],
 ];

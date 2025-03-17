@@ -1,3 +1,4 @@
+import { registerVueControllerComponents } from '@symfony/ux-vue';
 import './bootstrap.js';
 /*
  * Welcome to your app's main JavaScript file!
@@ -9,3 +10,5 @@ import './styles/app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 console.log('This log comes from assets/app.js - welcome to AssetMapper! 🎉');
+
+registerVueControllerComponents();

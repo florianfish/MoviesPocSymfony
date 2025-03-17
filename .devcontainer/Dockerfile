@@ -14,6 +14,7 @@ RUN apt-get update \
         wget \
         zip \
         curl \
+        npm \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 

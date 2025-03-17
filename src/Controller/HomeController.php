@@ -25,7 +25,7 @@ final class HomeController extends AbstractController
         // Vérifier si les films populaires sont déjà en cache
         $cachedMovies = $this->cache->get('trending_movies', function (CacheItem $item) {
             // Configurer la durée de vie du cache ici (par exemple, 1 heure)
-            $item->expiresAfter($this->parameterBag->get('TMDB_EXPIRES_AFTER')); // 1 semaine
+            //$item->expiresAfter($this->parameterBag->get('TMDB_EXPIRES_AFTER')); // 1 semaine
 
             // Faire l'appel à l'API TMDB
             $response = $this->client->request('GET', 'https://api.themoviedb.org/3/trending/movie/day?language=fr-FR', [
